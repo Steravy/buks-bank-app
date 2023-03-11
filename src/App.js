@@ -23,7 +23,9 @@ const App = () => {
       </header>
 
       <section className={`bg-primary ${styles.flexStart}`}>
-        <section className={`${styles.boxWidth}`}>Hero</section>
+        <section className={`${styles.boxWidth}`}>
+          <Hero />
+        </section>
       </section>
       <section className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <section className={`${styles.boxWidth}`}>
@@ -37,7 +39,6 @@ const App = () => {
           <Footer />
         </section>
       </section>
-      <footer></footer>
     </div>
   );
 };

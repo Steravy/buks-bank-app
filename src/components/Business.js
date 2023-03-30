@@ -4,10 +4,22 @@ import Button from "./Button";
 import { features } from "../constants/staticTexts";
 
 
-const FeatureCard = ({ icon, title, content, index}) => {
+const FeatureCard = ({ icon, title, content, index }) => {
   return (
-    <div>
+    <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'm-0'} feature-card `}>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`} >
+        <img className={`w-[50%] h-[50%] object-contain`} src={icon} alt='icon' />
+      </div>
+      <div className={`flex flex-1 flex-col ml-3`} >
+        <h4>
+          {title}
+        </h4>
 
+        <p>
+          {content}
+        </p>
+
+      </div>
     </div>
   )
 }
@@ -29,9 +41,9 @@ const Business = () => {
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
-        {features.map((feature, index) => {
+        {features.map((feature, index) => 
           <FeatureCard key={feature.id} {...feature} index={index} />
-        })}
+        )}
       </div>
     </section>
   );

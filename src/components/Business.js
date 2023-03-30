@@ -1,6 +1,16 @@
 import React from "react";
 import styles, { layout } from "../styleConstants";
 import Button from "./Button";
+import { features } from "../constants/staticTexts";
+
+
+const FeatureCard = () => {
+  return (
+    <div>
+
+    </div>
+  )
+}
 
 const Business = () => {
   return (
@@ -15,8 +25,14 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
+        <Button styles="mt-10" />
       </div>
-      <Button styles="mt-10" />
+
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => {
+          <FeatureCard key={feature.id} {...feature} index={index} />
+        })}
+      </div>
     </section>
   );
 };

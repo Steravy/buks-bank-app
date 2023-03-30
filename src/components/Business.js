@@ -4,7 +4,7 @@ import Button from "./Button";
 import { features } from "../constants/staticTexts";
 
 
-const FeatureCard = () => {
+const FeatureCard = ({ icon, title, content, index}) => {
   return (
     <div>
 

@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { clients } from '../constants/staticTexts';
+
 
 const Clients = () => {
   return (
@@ -6,4 +8,4 @@ const Clients = () => {
   )
 }
 
-export default Clients
+export default Clients;

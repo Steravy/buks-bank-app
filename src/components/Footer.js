@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styleConstants';
+import { logo } from '../assets';
+import { footerLinks, socialMedia } from '../constants/staticTexts';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`} >
+      <div>
+
+      </div>
+    </section>
   )
 }
 

@@ -15,7 +15,18 @@ Modern and responsive bank website.
 
 ## Screenshots
 
-![Hero section](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+Hero section
+
+![Hero section](https://github.com/Steravy/buks-bank-app/blob/main/src/assets/screenShots/heroSection.png)
+
+Clients section
+![Clients section](https://github.com/Steravy/buks-bank-app/blob/main/src/assets/screenShots/clients.png)
+
+Testimonials section
+![Testimonials section](https://github.com/Steravy/buks-bank-app/blob/main/src/assets/screenShots/testimonials.png)
+
+Footer section
+![Footer section](https://github.com/Steravy/buks-bank-app/blob/main/src/assets/screenShots/footer.png)
 
 
 ## Clone

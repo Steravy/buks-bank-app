@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const CardDeal = () => {
   return (
@@ -6,4 +6,4 @@ const CardDeal = () => {
   )
 }
 
-export default CardDeal
+export default CardDeal;

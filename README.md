@@ -1,7 +1,7 @@
 
 # HooBank
 
-Modern and responsive bank website. 
+Fully Responsive Website with Modern UI_UX.
 
 
 ![Logo](https://github.com/Steravy/buks-bank-app/blob/main/src/assets/logo.svg)
@@ -9,7 +9,7 @@ Modern and responsive bank website.
 
 ## Stack used
 
-**Front-end:** React, TailwindCSS
+**Front-end:** React & TailwindCSS.
 
 
 
